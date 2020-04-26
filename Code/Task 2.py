@@ -7,8 +7,8 @@ Created on Sun Apr 19 09:42:11 2020
 def complementary_strand(seq):
     output=''
     n=len(seq)
-    i=n-1
-    while i>=0:
+    i=0
+    while i<=n-1:
         if seq[i]=="A":
            output=output+'T' 
         elif seq[i]=="T":
@@ -17,7 +17,8 @@ def complementary_strand(seq):
            output=output+'G'
         else:
            output=output+'C'
-        i=i-1
+        i=i+1
+    output=output[::-1]
     print(output)
 
 s='ATCGTGAC'
