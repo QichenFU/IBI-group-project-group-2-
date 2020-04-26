@@ -4,7 +4,7 @@ Created on Thu Apr 23 20:20:34 2020
 
 @author: DM
 """
-seq = input('give me a sequence of DNA: ') 
+
 def CG_content_calculator(seq):    
     counterCG = 0
     for i in range(0,len(seq)):
@@ -12,3 +12,5 @@ def CG_content_calculator(seq):
             counterCG = counterCG + 1    
     CG_content = counterCG/len(seq)
     print ('%.2f%%' % (CG_content*100))
+seq='ATCAGATC'
+CG_content_calculator(seq)
