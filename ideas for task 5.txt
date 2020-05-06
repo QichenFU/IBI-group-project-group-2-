@@ -1,0 +1,4 @@
+1. restriction enzyme cutting sites search
+2. transcription factors search 
+3. splicing site (exon & intron)
+4. PCR primer
