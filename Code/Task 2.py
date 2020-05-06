@@ -22,5 +22,5 @@ def complementary_strand(seq):
     return(seq)
 
 s='ATTAAACCCTCGTGAC'
-print(complementary_strand(s))
+print('The complementary strand: '+complementary_strand(s))
         

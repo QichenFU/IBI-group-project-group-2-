@@ -17,4 +17,4 @@ def transcription(seq):
     return(seq)
 
 DNA = 'ATCGCCTAC' #The coding DNA strand that you want to transcript
-print('RNA=',transcription(DNA))
+print('The mRNA sequence is: '+transcription(DNA))

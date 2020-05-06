@@ -23,4 +23,4 @@ def CG_content_calculator(seq):
     return ('%.2f%%' % (CG_content*100))
 
 seq='ATCAAGTGACCTA'
-print(CG_content_calculator(seq))
+print('The CG content: '+str(CG_content_calculator(seq)))

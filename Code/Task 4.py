@@ -40,7 +40,7 @@ def mRNA_protein(RNA_string):
                 break
             else:
                 protein = protein + protein_table[RNA_string[sit:sit+3]]
-        return('peptide translated from  mRNA is :',protein)
+        return('The peptide translated from mRNA is: '+protein)
     # cannot find start codon
     else:
         return('cannot find start codon')
