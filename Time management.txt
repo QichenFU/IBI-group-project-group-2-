@@ -1,0 +1,14 @@
+DD/M/YYYY
+17/4/2020 First group meeting: Confirmed that every team member understood the ICA, allocated task 1-4 code writing work to 4 team members, all students thinks about the ideas for task 5
+17-26/4/2020 Working on task 1-4 code and task 5 ideas
+26/4/2020 Second group meeting: Discussed and corrected the mistakes found in task 1-4 codes and ideas for task 5
+26-27/4/2020 Extra time for finding ideas about task 5
+27/4/2020 Third group meeting: Confirmed task 5 according to the team members' opinions and tutors opinions 
+27-30/4/2020 Stop working since 30/4/2020 was the deadline for IBMS1 lab report
+01-03/5/2020 Finding templates for poster, a student wrote the code for task 5
+04/5/2020 Fourth group meeting: Dissussed and confirmed the template of poster and confirmed the allocation of presentation
+05/5/2020 a student added all contents into the template, all students prepared their own parts of the presentation
+06/5/2020 recorded the presentation, final check and correction of the codes
+
+Although the commit date is close to the deadline, we had this timetable at 17/4/2020. 
+The reason for not making this timetable early to submit it to the formative assessment is that most group members have ICA (ICMB JC presentation) whose deadline is 17/4/2020. 

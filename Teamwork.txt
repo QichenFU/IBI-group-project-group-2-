@@ -1,10 +1,33 @@
-Group member: FU, 
+Group member: Fu, Liu, Ni, Shao, Wang
 
-Writing codes: 
+#Writing codes: 
 Task 1: Shao
 Task 2: Fu
 Task 3: Liu
 Task 4: Wang
-Task 5: idea: every group member writing codes: Ni
+Task 5: ideas: every group member (more in ideas for task 5.txt)
+writing codes: Ni
+Every group member checked the code:
+Shao pointed out 1 mistakes in task 5. 
+Wang provided a suggestion about outputs of all tasks. 
+Fu corrected the mistakes of "sys.exit()"  
 
-Poster: 
+#Poster: 
+Wang provided several poster template and all group member met together and discussed which the most suitable template was. 
+Fu added all contents (Flow chart, snippets, etc) to the template. 
+
+#Presentation
+Introduction: Shao
+Task 1: Shao
+Task 2: Ni
+Task 3: Liu
+Task 4: Wang
+Task 5: Fu
+Conclusion: Fu
+Every group member participated in the presentation. 
+Most group members talked about the tasks whose code was written by themselves. 
+Fu and Ni changed the tasks in the presentation since Fu was more familar with task 5.  
+
+#Discussion board
+Fu helped post questions from all group members on the discussion board. 
+Every group member monitered the discussion board. 
