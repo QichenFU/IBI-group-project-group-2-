@@ -4,23 +4,25 @@ Created on Sun Apr 19 09:42:11 2020
 
 @author: 17426
 """
+import re
+import sys
+#define the function
 def complementary_strand(seq):
-    output=''
-    n=len(seq)
-    i=0
-    while i<=n-1:
-        if seq[i]=="A":
-           output=output+'T' 
-        elif seq[i]=="T":
-           output=output+'A'
-        elif seq[i]=="C":
-           output=output+'G'
-        else:
-           output=output+'C'
-        i=i+1
-    output=output[::-1]
-    print(output)
+    #check if the input sequence is a correct DNA sequence, if not exit the function and give an error message
+    if re.search(r'[^ATCGactg]',seq):
+        print("not a correct DNA sequence") 
+        sys.exit()
+    #change lower case to upper case
+    seq=seq.upper()
+    #replace A/T/C/G with t/a/g/c, use lower case to avoid confusing variable assignments 
+    seq=seq.replace('A','t').replace('C','g').replace('G','c').replace('T','a')
+    #change lower case to upper case
+    seq=seq.upper()
+    #change 3'->5' sequence to 5'->3' sequence
+    seq=seq[::-1]
+    #output sequence
+    print(seq)
 
-s='ATCGTGAC'
+s='ATTAAACCCTCGTGAC'
 complementary_strand(s)
         
