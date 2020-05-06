@@ -5,13 +5,11 @@ Created on Thu Apr 23 20:20:34 2020
 @author: DM
 """
 import re
-import sys
 #define the function
 def CG_content_calculator(seq):
     #check if the input sequence is a correct DNA sequence, if not exit the function and give an error message
     if re.search(r'[^ATCGactg]',seq):
-        print("not a correct DNA sequence") 
-        sys.exit()
+        return("not a correct DNA sequence") 
     #change lower case to upper case
     seq=seq.upper()
     #set the initial GC content to 0
@@ -22,6 +20,7 @@ def CG_content_calculator(seq):
             counterCG = counterCG + 1    
     CG_content = counterCG/len(seq)
     #calculate and output the CG content
-    print ('%.2f%%' % (CG_content*100))
+    return ('%.2f%%' % (CG_content*100))
+
 seq='ATCAAGTGACCTA'
-CG_content_calculator(seq)
+print(CG_content_calculator(seq))

@@ -5,13 +5,11 @@ Created on Thu Apr 23 16:41:56 2020
 @author: 蒋冰
 """
 import re
-import sys
 #define the function
 def mRNA_protein(RNA_string):
     #check if the input sequence is a correct RNA sequence, if not exit the function and give an error message
     if re.search(r'[^AUCGacug]',RNA_string):
-        print("not a correct RNA sequence") 
-        sys.exit()
+        return("not a correct RNA sequence") 
     #change lower case to upper case
     RNA_string=RNA_string.upper()
     #input the genetic code dictionary
@@ -42,14 +40,14 @@ def mRNA_protein(RNA_string):
                 break
             else:
                 protein = protein + protein_table[RNA_string[sit:sit+3]]
-        print('peptide translated from  mRNA is :',protein)
+        return('peptide translated from  mRNA is :',protein)
     # cannot find start codon
     else:
-        print('cannot find start codon')
+        return('cannot find start codon')
     #output the result
 
 RNA_string ='CGCGCGCGAUGCUUAUUGUGGCCGCGGAUAACUAAGGC'
-mRNA_protein(RNA_string)
+print(mRNA_protein(RNA_string))
     
 
 
