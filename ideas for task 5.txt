@@ -1,4 +1,8 @@
 1. restriction enzyme cutting sites search
-2. transcription factors search 
-3. splicing site (exon & intron)
-4. PCR primer
+
+2. transcription factors search (search the transcripition factor binding sites) (a database is necessary. However, using a database is not recommanded. )
+(Also, it is complicated, which did not conform to the instruction ('we prefer a simple idea that works to a complex idea that is poorly implemented'))
+
+3. splicing site (a function which can exclude introns in pre-mature mRNA) (3 group members thought idea 1 was more interesting than this idea.)
+
+4. PCR primer (a database is necessary. However, using a database is not recommanded. )
